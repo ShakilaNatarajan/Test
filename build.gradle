@@ -19,8 +19,7 @@ repositories {
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
         maven {
-          url "http://localhost:8081/repository/Test/"
-       }
+ url "http://localhost:8081/nexus/content/groups/public"       }
     jcenter()
 }
 
